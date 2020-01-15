@@ -377,15 +377,15 @@
 				</form>
 			</div>
 			<!-- 2 -->
-			<div class="review__item" id="tab_2">
+			<div class="review__item hidden" id="tab_2">
 				<span class="review__exist">2 There are no reviews for this product.</span>
 			</div>
 			<!-- 3 -->
-			<div class="review__item" id="tab_3">
+			<div class="review__item hidden" id="tab_3">
 				<span class="review__exist">3 There are no reviews for this product.</span>
 			</div>
 			<!-- 4 -->
-			<div class="review__item" id="tab_4">
+			<div class="review__item hidden" id="tab_4">
 				<span class="review__exist">4 There are no reviews for this product.</span>
 			</div>
 			<!--  -->
@@ -748,17 +748,20 @@
 <!--================================ -->
 
 <section class="newsletter">
-	<div class="newsletter-block wrap">
+	<form action="#" class="newsletter-block">
 		<span class="news-title">NEWSLETTER:</span>
 		<div class="form-field-email">
 			<div class="email-field-tabs">
 				<span class="email-ico"></span>
 				<div class="email-hv"></div>
 			</div>
-			<input type="text" class="email__text-field" placeholder="Enter your email address">
+			<!-- <input type="text" class="email__text-field" placeholder="Enter your email address"> -->
+			<input autocomplete="off" name="form[]" type="text" data-value="Enter your email address" class="email__text-field input req email">
+		
 		</div>	
-		<input type="submit" class="email-submit-btn" value="">
-	</div>
+		<!-- <input type="submit" class="email-submit-btn" value=""> -->
+		<button type="submit" class="email-submit-btn"></button>
+	</form>	
 </section>
 
 <!-- include('footer.html') -->

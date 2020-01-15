@@ -1743,6 +1743,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.email__text-field.err {
+  border: 1px solid red !important;
+}
+
 /*---------------*/
 
 .email-submit-btn {
