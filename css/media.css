@@ -1,0 +1,11 @@
+.header-title {
+  font-size: 2rem; }
+  @media (max-width: 599px) {
+    .header-title {
+      font-size: 1rem; } }
+
+.header-title2 {
+  font-size: 2rem; }
+  @media (max-width: 599px) {
+    .header-title2 {
+      font-size: 1rem; } }
