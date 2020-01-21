@@ -1,14 +1,14 @@
 $(document).ready(function () {
 // ==============================================
-$('.label').text($(window).width());
-$('.label').append('&nbsp;');
+// $('.label').text($(window).width());
+// $('.label').append('&nbsp;');
 	if($(window).width() <= 900) {
 		$('meta[name="viewport"]').remove();  
 		$('head').append( '<meta name="viewport" content="width=900, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">' );
 	}
 	window.addEventListener("resize", function() {
-		$('.label').text($(window).width());
-		$('.label').append('&nbsp;');
+		// $('.label').text($(window).width());
+		// $('.label').append('&nbsp;');
 		if($(window).width() <= 900) {
 			if ($('meta[name=viewport]').is('[content^="width=device-width"]')) {
 				$('meta[name=viewport]').remove();

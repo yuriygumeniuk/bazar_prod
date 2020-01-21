@@ -1873,42 +1873,9 @@ body {
   color: #d58e32;
 }
 
-.label {
-  padding: 2px;
-  font-size: 12px;
-  z-index: 10;
-  position: fixed;
-  top: 30px;
-  right: 30px;
-  display: block;
-  height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 5px;
-  background-color: rgba(102, 153, 153, 0.835);
-  color: #fff;
-}
-
-@media (min-width: 1800px) {
-  .label:after {
-    content: 'mdf1-1800->';
-  }
-}
-
 @media (max-width: 1799px) {
   .nav-link {
     padding-left: 20px;
-  }
-
-  .label:after {
-    content: 'mdf2-1200-1799';
   }
 }
 
@@ -1949,10 +1916,6 @@ body {
 
   .link__item a {
     padding: 38px 17px;
-  }
-
-  .label:after {
-    content: 'mdf3-900-1199';
   }
 }
 
@@ -2008,10 +1971,6 @@ body {
     padding: 20px 17px;
     height: 60px;
   }
-
-  .label:after {
-    content: 'mdf4-600-899';
-  }
 }
 
 @media (max-width: 599px) {
@@ -2066,15 +2025,5 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-  }
-
-  .label:after {
-    content: 'mdf5-400-599';
-  }
-}
-
-@media (max-width: 399px) {
-  .label:after {
-    content: 'mdf6-0-399';
   }
 }
